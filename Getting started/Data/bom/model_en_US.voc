@@ -1,4 +1,10 @@
 
+# Subject
+Subject#concept.label = subject
+Subject.Subject(java.lang.String)#phrase.navigation = a new {subject} where {0, name}
+Subject.name#phrase.action = set the name of {this} to {name}
+Subject.name#phrase.navigation = {name} of {this}
+
 # Temperature
 Temperature#concept.label = temperature
 Temperature.cold#instance.label = cold

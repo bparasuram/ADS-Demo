@@ -1,5 +1,23 @@
 
 
+public class Subject
+        property "ads.typeId" "3"
+        property "com.fasterxml.jackson.annotation.JsonTypeName" "subject"
+        property "de.generated" "true"
+{
+    public string name
+                property "ads.attributeId" "1"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "name"
+                property update "true";
+    public Subject(string name)
+                property autoExpand "true"
+                property beanConstructor "true"
+                property groups "BALA"
+                property prototype "true";
+    public Subject()
+                property "dataio.default" "true";
+}
+
 public class Temperature
         extends java.lang.Enum
         property "ads.typeId" "1"
